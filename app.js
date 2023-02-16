@@ -156,11 +156,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //tetrominoes without rotations
     const upNextTetrominoes = [
-        [1, 2, displayWidth + 1, displayWidth * 2 + 1],                     //lTetromino
-        [displayWidth + 1, displayWidth + 2, displayWidth * 2, displayWidth * 2 + 1],     //zTetromino
-        [1, displayWidth, displayWidth + 1, displayWidth + 2],                     //tTetromino
-        [1, displayWidth + 1, displayWidth * 2 + 1, displayWidth * 3 + 1],         //iTetromino
-        [0, 1, displayWidth, displayWidth + 1]                              //oTetromino
+        [1, 2, displayWidth + 1, displayWidth * 2 + 1],                                 //lTetromino
+        [displayWidth + 1, displayWidth + 2, displayWidth * 2, displayWidth * 2 + 1],   //zTetromino
+        [1, displayWidth, displayWidth + 1, displayWidth + 2],                          //tTetromino
+        [1, displayWidth + 1, displayWidth * 2 + 1, displayWidth * 3 + 1],              //iTetromino
+        [0, 1, displayWidth, displayWidth + 1]                                          //oTetromino
     ];
 
     //display shape in mini-grid
